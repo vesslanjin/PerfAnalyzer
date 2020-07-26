@@ -116,7 +116,6 @@ python view.py
 
 - 简单测试：simple-test
 - Scaling 测试（Intel）：intel-test
-- Scaling 测试（AMD）：amd-test
 
 ### Contactor
 - Wang, Zhiheng 
