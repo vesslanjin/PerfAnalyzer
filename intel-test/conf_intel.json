@@ -1,0 +1,21 @@
+{
+  "config": {
+    "instances": [
+      {
+        "workingDirectory": "/home/aiyu/zhiheng/specjbb/SPECjbb2015",
+        "cmd": "./run.sh HBIR_RT jbb102 specjbb2015_pkb_baremetal jdk \"-XX:UseAVX=0\" NONE 0",
+        "numactl": "--cpunodebind=0 --localalloc"
+      }
+    ],
+    "workloadName": "specjbb2015",
+    "coresUsed": 24,
+    "smt": 2,
+    "llcScaling": "(0x7 0x3f 0x7ff)",
+    "llcAssoc": "0,2,4,6-10",
+    "coreFreqScaling": "(1.3 1.6 2.1 2.4)",
+    "uncoreFreqScaling": "(1.6 1.8 2.0 2.4)",
+    "memspeed": "2933",
+    "emonStartTime": 0,
+    "emonDuration": -1
+  }
+}
