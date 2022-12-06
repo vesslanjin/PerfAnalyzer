@@ -14,7 +14,7 @@
     "bootstrap": "^3.4.1",
     "echarts": "^4.7.0",
     "echarts-stat": "^1.1.1",
-    "qs": "^6.9.3",
+    "qs": "^6.9.7",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
     "vuetify": "^2.2.22"
